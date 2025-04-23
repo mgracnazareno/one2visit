@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Montreal Summer Tours</title>
+</head>
+
+<body>
+    <h1>Guided Tours in Montreal - Summer</h1>
+    <ul id="tour-list"></ul>
+
+    <script>
+        function fetchToursBySeason(season) {
+            fetch('tours.json')
+                .then(response => response.json())
+                .then(data => {
+                    const filtered = data.filter(tour => tour.season.toLowerCase() === season.toLowerCase());
+                    displayTours(filtered);
+                })
+                .catch(err => console.error("Error loading tours:", err));
+        }
+
+        function displayTours(tours) {
+            const list = document.getElementById('tour-list');
+            list.innerHTML = '';
+            tours.forEach(tour => {
+                const li = document.createElement('li');
+                li.textContent = `${tour.name} - ${tour.type} - ${tour.duration} - $${tour.price}`;
+                list.appendChild(li);
+            });
+        }
+
+        // Call the function with 'summer' parameter
+        fetchToursBySeason('summer');
+    </script>
+</body>
+
+</html>

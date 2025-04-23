@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saint Joseph's Oratory</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- 🌐 Navbar -->
+    <nav class="navbar navbar-expand-lg custom-navbar shadow-sm ">
+        <div class="container">
+            <a class="navbar-brand fw-bold ms-3" href="#" data-key="brand">one2visit</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html" data-key="home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="activities-1.html"
+                            data-key="activities">Activities</a>
+                    </li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#" data-key="testimonials">About Us</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="guided-tours.html" data-key="contact">Guided
+                            Tours</a></li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-key="contactUs">Contact Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials" data-key="contactUs">Testimonials</a>
+                    </li>
+
+                    <!-- 🔍 Search Icon -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="searchToggle"><i class="bi bi-search"></i></a>
+                    </li>
+
+                    <!-- 🔎 Search Bar (hidden by default) -->
+                    <li class="nav-item d-none" id="searchBar">
+                        <form class="d-flex ms-2">
+                            <input class="form-control" type="search" placeholder="Search..." aria-label="Search">
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content Section -->
+    <div class="container-fluid my-4">
+        <div class="row">
+            <!-- Left Column -->
+            <div class="col-md-6">
+                <div class="sticky-top" style="top: 0;">
+                    <div class="p-5 page-section">
+                        <h1 class="display-5 fw-bold">Saint Joseph's Oratory of Mount Royal</h1>
+                        <p class="lead">Perched atop Mount Royal, Saint Joseph's Oratory is Canada's largest church and
+                            a renowned pilgrimage site, attracting over 2 million visitors annually.</p>
+                        <p>Founded in 1904 by Saint Brother André, the Oratory has evolved into a monumental basilica
+                            featuring a 97-meter-high dome, second only to Saint Peter's Basilica in Rome. The site
+                            encompasses the Original Chapel, Crypt Church, Votive Chapel, and a museum housing over 200
+                            nativity scenes from around the world.</p>
+                        <p>Visitors can explore the Garden of the Way of the Cross, attend daily Masses, and admire the
+                            renowned Rudolf von Beckerath organ. The Oratory stands as a testament to faith, healing,
+                            and architectural grandeur.</p>
+                        <ul class="info-list list-unstyled mt-4">
+                            <li><span class="label">📍 Address:</span> 3800 Queen Mary Road, Montreal, QC H3V 1H6</li>
+                            <li><span class="label">🕒 Hours:</span> Daily, 6:30 AM – 9:00 PM</li>
+                            <li><span class="label">🔗 Website:</span> <a href="https://www.saint-joseph.org/en/"
+                                    target="_blank" class="info-link">saint-joseph.org</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-md-6">
+                <div class="p-5 page-section">
+                    <img src="images/activities/Oratoire-St-Joseph.jpg" alt="Saint Joseph's Oratory"
+                        class="main-image img-fluid mb-4">
+                    <div class="info-panel d-flex gap-4 flex-wrap justify-content-center">
+                        <div class="text-center">
+                            <i class="bi bi-clock display-6" data-bs-toggle="tooltip" title="Opening Hours"></i>
+                            <p class="mb-0">6:30 AM – 9:00 PM</p>
+                        </div>
+                        <div class="text-center">
+                            <i class="bi bi-geo-alt display-6" data-bs-toggle="tooltip" title="Location"></i>
+                            <p class="mb-0">Côte-des-Neiges</p>
+                        </div>
+                        <div class="text-center">
+                            <i class="bi bi-currency-dollar display-6" data-bs-toggle="tooltip" title="Free Entry"></i>
+                            <p class="mb-0">Free Entry</p>
+                        </div>
+                    </div>
+
+                    <div class="info-box mt-4">
+                        <h5>Additional Information</h5>
+                        <p>🕍 Features include the Basilica, Crypt Church, Votive Chapel, museum, and gardens. Masses
+                            are held daily in multiple languages. The site is accessible via public transit, with nearby
+                            Côte-des-Neiges metro station and bus routes.</p>
+                    </div>
+
+                    <div class="nearby-box mt-5">
+                        <h5>What's Nearby</h5>
+                        <ul class="list-unstyled row row-cols-1 row-cols-sm-2 g-2 ps-3">
+                            <li class="col">🏞️ Mount Royal Park</li>
+                            <li class="col">🖼️ Montreal Museum of Fine Arts</li>
+                            <li class="col">🏛️ Notre-Dame Basilica</li>
+                            <li class="col">☕ Café Santropol</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class=" text-white pt-4 pb-3 mt-2">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <!-- Company Info -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold" data-key="brand">One2Visit</h5>
+                    <p class="text-white" data-key="footerDesc">Bringing people together through meaningful
+                        activities
+                        and shared experiences.</p>
+
+                    <h6 class="mt-4 fw-semibold" data-key="followUs">Follow Us</h6>
+                    <a href="https://www.facebook.com/" class="text-white me-3 fs-5"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/" class="text-white me-3 fs-5"><i
+                            class="bi bi-instagram"></i></a>
+                    <a href="https://www.tiktok.com/" class="text-white fs-5"><i class="bi bi-tiktok"></i></a>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold" data-key="quickLinks">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white text-decoration-none" data-key="home">Home</a></li>
+                        <li><a href="activities-1.html" class="text-white text-decoration-none"
+                                data-key="activities">Activities</a>
+                        </li>
+                        <li><a href="#" class="text-white text-decoration-none" data-key="testimonials">Testimonials</a>
+                        </li>
+                        <li><a href="#" class="text-white text-decoration-none" data-key="contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact + Social -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold" data-key="contact">Contact</h5>
+                    <p class="mb-1"><i class="bi bi-envelope me-2"></i>info@one2visit.com</p>
+                    <p class="mb-1"><i class="bi bi-phone me-2"></i>+1 (514) 731-3419</p>
+                    <p><i class="bi bi-geo-alt me-2"></i>8255 ave. Mountain Sights, Montreal QC H4P 2B5</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

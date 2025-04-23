@@ -1,0 +1,618 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@600&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Only reset margin/padding on body and html */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+.navbar-brand {
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-navbar,
+footer {
+  background: #1b1f3b;
+}
+
+.custom-navbar a,
+footer a {
+  color: #f4f4f9;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar a:hover,
+footer a:hover {
+  color: #4da8da; /* Sky Blue for a clean hover effect */
+}
+
+/* .custom-navbar .nav-link {
+  color: #fffcf2;
+} */
+
+.navbar-brand {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 700;
+  font-size: 1.25em;
+  color: #fff;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* Navbar */
+h1,
+h2,
+h3,
+.navbar-brand {
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-navbar .nav-link {
+  color: #f4f4f9; /* default color */
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #4da8da; /* on hover */
+}
+
+.custom-navbar .nav-link.active {
+  color: #4da8da; /* active link color */
+  font-weight: 600;
+  border-bottom: 2px solid #4da8da; /* optional underline effect */
+}
+
+/* carouse-home */
+#summerCarousel .carouse-item img {
+  height: 15vh;
+  object-fit: cover;
+}
+
+.banner-carousel-img {
+  object-fit: cover;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4); /* dim the image slightly */
+  z-index: 1;
+}
+
+.carousel-caption {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.carousel-caption h1,
+.carousel-caption p {
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* soft text shadow for readability */
+  margin-bottom: 0.5rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.dropdown .form-control {
+  width: 250px;
+  text-align: center;
+}
+
+/* featured */
+
+.custom-bg {
+  background-color: #4da8da;
+}
+.custom-card-link {
+  text-decoration: none;
+}
+
+.custom-card {
+  height: 250px;
+  margin: 20px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s;
+}
+
+.custom-card img {
+  height: 350px;
+  width: 350px;
+  border-radius: 3px;
+  transition: transform 0.5s;
+}
+
+.intro {
+  height: 100px;
+  width: 350px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: -30px;
+  background: rgba(27, 27, 27, 0.5);
+  color: white;
+  transition: 0.5s;
+}
+
+.intro h1 {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.intro p {
+  font-size: 18px;
+  margin: 10px 10px 0 10px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.custom-card:hover {
+  cursor: pointer;
+}
+
+.custom-card:hover .intro {
+  height: 220px;
+  bottom: -30px;
+  background: black;
+}
+
+.custom-card:hover .intro p {
+  opacity: 1;
+  visibility: visible;
+}
+
+.custom-card:hover img {
+  transform: scale(1.1) rotate(-3deg);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #4da8da; /* Sky Blue */
+  color: #ffffff;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #ff6b6b; /* Soft Coral */
+  color: #ffffff;
+  transform: scale(1.05); /* subtle zoom on hover */
+}
+
+.custom-cta {
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.custom-cta {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-cta:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Testimonials */
+.testimonials-bg {
+  background-color: #f4f4f9;
+}
+
+/* Video Section */
+.video-section {
+  background-color: #f4f4f9; /* Cool Gray */
+  padding: 3rem 0;
+}
+
+.ratio iframe {
+  border: 3px solid #1b1f3b; /* Optional: Deep Navy border */
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(27, 31, 59, 0.15);
+}
+
+/* Card all activities */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border: none;
+  border-radius: 12px;
+}
+
+.card-body {
+  background-color: #ffffff;
+  border-top: 1px solid #eee;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.position-relative {
+  position: relative;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Dark overlay */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.card:hover .img-overlay {
+  opacity: 1;
+}
+
+.card-img-top {
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 0;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Activities Details */
+.info-list {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.8;
+}
+
+.info-list .label {
+  font-weight: 600;
+  color: #1b1f3b; /* Deep Navy for labels */
+}
+
+.info-link {
+  color: #4da8da; /* Sky Blue */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.info-link:hover {
+  text-decoration: underline;
+  color: #ff6b6b; /* Soft Coral on hover */
+}
+
+/* Page Details */
+
+.page-section {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.page-section h1,
+.page-section h5 {
+  color: #1b1f3b;
+}
+
+.page-section p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.page-section .lead {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.page-section p,
+.page-section ul,
+.page-section li {
+  line-height: 1.75;
+}
+
+.info-panel {
+  background-color: #f4f4f9;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  margin-bottom: 2rem;
+  color: #1b1f3b;
+  text-align: center;
+}
+
+.info-panel i {
+  color: #4da8da;
+  margin-bottom: 0.5rem;
+}
+
+.lead {
+  font-style: italic;
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: #fff; /* Softer than black */
+  font-weight: 400; /* Keeps it light and graceful */
+}
+
+/* Info box right Column */
+
+.info-box {
+  background-color: #f4f4f9;
+  border-left: 4px solid #4da8da; /* Sky Blue accent */
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-size: 0.96rem;
+  color: #333;
+}
+
+.info-box h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1b1f3b;
+}
+
+.info-box p {
+  margin: 0;
+  line-height: 1.7;
+}
+/* Nearby Box */
+.nearby-box {
+  background-color: #f4f4f9;
+  border-left: 4px solid #ff6b6b; /* Soft Coral accent */
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-size: 0.96rem;
+  color: #333;
+}
+
+.nearby-box h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1b1f3b;
+}
+
+.nearby-box p {
+  margin: 0;
+  line-height: 1.7;
+}
+/* Wrapper box for the info section (icon + text) */
+.visual-info-box {
+  background-color: #f4f4f9;
+  border-left: 4px solid #ff6b6b; /* Soft Coral accent */
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+
+/* Inner panel layout */
+.info-panel {
+  color: #1b1f3b;
+  text-align: center;
+}
+
+.info-panel i {
+  color: #4da8da;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+/* Additional info box styling */
+.info-box {
+  background-color: #f4f4f9;
+  border-left: 4px solid #4da8da;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-size: 0.96rem;
+  color: #333;
+}
+
+.info-box h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1b1f3b;
+}
+
+.info-box p {
+  margin: 0;
+  line-height: 1.7;
+}
+
+/* Guided Tour */
+.hero-text {
+  color: #f4f4f9;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.hero-lead {
+  color: #f4f4f9;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+/* Common float styles */
+/* 👇 Common floating effect */
+.tour-img-float {
+  width: 90%;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 2;
+}
+
+/*  Left image specific margin */
+.tour-img-left {
+  margin-left: 1rem;
+}
+
+/*  Right image specific margin */
+.tour-img-right {
+  margin-right: 1rem;
+}
+
+.tour-img-float:hover {
+  transform: translateY(-15px) scale(1.02);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.3);
+}
+.content-wrapper {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-end .content-wrapper {
+  text-align: right;
+}
+.tour-card-horizontal img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem 0 0 0.5rem; /* reverse for RTL layout */
+}
+
+/* Scoped to tours only */
+.tour-card-horizontal {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tour-card-horizontal:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.tour-card-horizontal img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+/* Adjust reverse image corner for RTL cards */
+.tour-card-horizontal .flex-row-reverse img {
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.tour-card-horizontal .tour-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.tour-card-horizontal .tour-description {
+  color: #555;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.tour-card-horizontal .tour-meta {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+/* Button inside tour card */
+.tour-card-horizontal .btn {
+  border-radius: 0.25rem;
+}
+
+/* Mobile adjustment */
+@media (max-width: 767px) {
+  .tour-card-horizontal {
+    flex-direction: column;
+  }
+
+  .tour-card-horizontal img {
+    border-radius: 0.5rem 0.5rem 0 0;
+    height: 220px;
+  }
+}
+
+/* Style the dropdown select */
+#google_translate_element select {
+  background-color: #0d6efd; /* Bootstrap primary */
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+/* Remove border on focus */
+#google_translate_element select:focus {
+  outline: none;
+  box-shadow: none;
+}
+@media (max-width: 576px) {
+  .custom-cta {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.65rem;
+  }
+}
+/* .activity-card {
+  transition: all 0.3s ease;
+} */

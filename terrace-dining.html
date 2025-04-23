@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terrace Dining in Montreal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- 🌐 Navbar -->
+    <nav class="navbar navbar-expand-lg custom-navbar shadow-sm ">
+        <div class="container">
+            <a class="navbar-brand fw-bold ms-3" href="#" data-key="brand">one2visit</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html" data-key="home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="activities-1.html"
+                            data-key="activities">Activities</a>
+                    </li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#" data-key="testimonials">About Us</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="guided-tours.html" data-key="contact">Guided
+                            Tours</a></li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-key="contactUs">Contact Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials" data-key="contactUs">Testimonials</a>
+                    </li>
+
+                    <!-- 🔍 Search Icon -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="searchToggle"><i class="bi bi-search"></i></a>
+                    </li>
+
+                    <!-- 🔎 Search Bar (hidden by default) -->
+                    <li class="nav-item d-none" id="searchBar">
+                        <form class="d-flex ms-2">
+                            <input class="form-control" type="search" placeholder="Search..." aria-label="Search">
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content Section -->
+    <div class="container-fluid my-4">
+        <div class="row">
+            <!-- Left Column -->
+            <div class="col-md-6">
+                <div class="sticky-top" style="top: 0;">
+                    <div class="p-5 page-section">
+                        <h1 class="display-5 fw-bold">Terrace Dining in Montreal</h1>
+                        <p class="lead">Savor delicious dishes under the sky — Montreal's terrace dining scene combines
+                            top-notch cuisine with charming outdoor settings across the city.</p>
+                        <p>Whether nestled in a leafy courtyard, atop a rooftop bar, or along cobblestone streets, the
+                            city's terraces offer something for everyone. From brunch in the Plateau to sunset cocktails
+                            downtown, these al fresco spots make for unforgettable dining experiences.</p>
+                        <p>Enjoy the best seasonal eats and drinks while soaking in vibrant urban views and historic
+                            ambiance. Each location brings a unique vibe that captures the spirit of summer in Montreal.
+                        </p>
+                        <ul class="info-list list-unstyled mt-4">
+                            <li><span class="label">📍 Location:</span> Various locations city-wide</li>
+                            <li><span class="label">🕒 Hours:</span> Seasonal (typically May to October)</li>
+                            <li><span class="label">🔗 Website:</span> <a
+                                    href="https://www.mtl.org/en/experience/montreal-prettiest-green-terrasses"
+                                    target="_blank" class="info-link">mtl.org/terraces</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-md-6">
+                <div class="p-5 page-section">
+                    <img src="images/activities/terrace.jpg" alt="Terrace Dining in Montreal"
+                        class="main-image img-fluid mb-4">
+                    <div class="info-panel d-flex gap-4 flex-wrap justify-content-center">
+                        <div class="text-center">
+                            <i class="bi bi-clock display-6" data-bs-toggle="tooltip" title="Seasonal"></i>
+                            <p class="mb-0">May–October</p>
+                        </div>
+                        <div class="text-center">
+                            <i class="bi bi-geo-alt display-6" data-bs-toggle="tooltip" title="City-wide"></i>
+                            <p class="mb-0">Montreal</p>
+                        </div>
+                        <div class="text-center">
+                            <i class="bi bi-currency-dollar display-6" data-bs-toggle="tooltip" title="Varies"></i>
+                            <p class="mb-0">Varies</p>
+                        </div>
+                    </div>
+
+                    <div class="info-box mt-4">
+                        <h5>Featured Terraces</h5>
+                        <p>🌸 Jardin Nelson, 🌇 Terrasse William Gray, 🌿 Café Santropol, 🌞 Marcus Rooftop, 🌿 Le
+                            Sainte-Élisabeth, 🍹 Marché des Éclusiers</p>
+                    </div>
+
+                    <div class="nearby-box mt-5">
+                        <h5>What to Expect</h5>
+                        <ul class="list-unstyled row row-cols-1 row-cols-sm-2 g-2 ps-3">
+                            <li class="col">🥂 Rooftop views and cocktails</li>
+                            <li class="col">🌿 Green courtyards and patios</li>
+                            <li class="col">🎷 Live music on some terraces</li>
+                            <li class="col">🍽️ Chef-driven seasonal menus</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class=" text-white pt-4 pb-3 mt-2">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <!-- Company Info -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold" data-key="brand">One2Visit</h5>
+                    <p class="text-white" data-key="footerDesc">Bringing people together through meaningful
+                        activities
+                        and shared experiences.</p>
+
+                    <h6 class="mt-4 fw-semibold" data-key="followUs">Follow Us</h6>
+                    <a href="https://www.facebook.com/" class="text-white me-3 fs-5"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/" class="text-white me-3 fs-5"><i
+                            class="bi bi-instagram"></i></a>
+                    <a href="https://www.tiktok.com/" class="text-white fs-5"><i class="bi bi-tiktok"></i></a>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold" data-key="quickLinks">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white text-decoration-none" data-key="home">Home</a></li>
+                        <li><a href="activities-1.html" class="text-white text-decoration-none"
+                                data-key="activities">Activities</a>
+                        </li>
+                        <li><a href="#" class="text-white text-decoration-none" data-key="testimonials">Testimonials</a>
+                        </li>
+                        <li><a href="#" class="text-white text-decoration-none" data-key="contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact + Social -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold" data-key="contact">Contact</h5>
+                    <p class="mb-1"><i class="bi bi-envelope me-2"></i>info@one2visit.com</p>
+                    <p class="mb-1"><i class="bi bi-phone me-2"></i>+1 (514) 731-3419</p>
+                    <p><i class="bi bi-geo-alt me-2"></i>8255 ave. Mountain Sights, Montreal QC H4P 2B5</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/laytoutScrollFix.js" defer></script>
+</body>
+
+</html>

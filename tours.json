@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Old Montreal Walking Tour",
+    "description": "Explore cobblestone streets, historical buildings, and local legends with a pro guide.",
+    "duration": "2 hrs",
+    "price": 25,
+    "image": "images/activities/walking-tour.jpg",
+    "season": "summer",
+    "website": "https://guidatour.qc.ca/en/scheduled-tours/scheduled-tours-on-foot/old-montreal-original/"
+  },
+  {
+    "id": 2,
+    "name": "Lachine Canal Bike Tour",
+    "description": "Ride along scenic waterside paths with stops at landmarks and hidden gems.",
+    "duration": "3 hrs",
+    "price": 35,
+    "image": "images/activities/lachine-tour.jpg",
+    "season": "summer",
+    "website": "https://caroulemontreal.com/en"
+  },
+  {
+    "id": 3,
+    "name": "St. Lawrence River Cruise",
+    "description": "Relax and enjoy Montreal’s skyline and stories from the deck of a luxury boat.",
+    "duration": "1.5 hrs",
+    "price": 40,
+    "image": "images/activities/river-cruise1.jpg",
+    "season": "summer",
+    "website": "https://www.croisieresaml.com/en/our-cruises/montreal/montreal-guided-sightseeing-river-cruise"
+  },
+  {
+    "id": 4,
+    "name": "Haunted Downtown Tour",
+    "description": "Spooky legends and eerie tales under moonlight.",
+    "duration": "1.5 hrs",
+    "price": 20,
+    "image": "images/haunted-tour.jpg",
+    "season": "autumn",
+    "website": "https://hauntedmontreal.com/haunted-downtown"
+  },
+  {
+    "id": 5,
+    "name": "16/42 tours",
+    "description": "Discover the diverse charm of Montréal with 16/42 tours! Explore vibrant neighbourhoods like Mile End, historic Old Montréal, bustling downtown, or culturally rich Parc-Extension on an engaging guided tour. What's more, kids under 12 join for free!",
+    "duration": "Flexible",
+    "price": "Varies by tour",
+    "image": "images/guided-tours/1642_1.jpg",
+    "season": "All seasons",
+    "website": "https://www.1642tours.com/"
+  },
+  {
+    "id": 6,
+    "name": "Local Montréal Food Tours",
+    "description": "Foodies will love discovering the cultural and culinary richness of Montréal neighbourhoods. Follow the guide to take in the sights and flavours of Old Montréal and Mile End, and learn about the city’s rich and varied gastronomy scene.",
+    "duration": "Flexible",
+    "price": "Varies by tour",
+    "image": "images/guided-tours/food-tour.jpeg",
+    "season": "All seasons",
+    "website": "https://localfoodtours.com/montreal/"
+  },
+  {
+    "id": 7,
+    "name": "N-tours",
+    "description": "Get to know Montréal with N-tours, offering a variety of tours in the city and excursions to surrounding areas like the Eastern Townships. Ideal for individuals or small groups looking for in-depth knowledge of the city, its landmarks, and its people.",
+    "duration": "Flexible",
+    "price": "Varies by tour",
+    "image": "images/guided-tours/n-tours.jpg",
+    "season": "All seasons",
+    "website": "https://ntours.ca/"
+  }
+]
