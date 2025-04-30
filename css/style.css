@@ -79,6 +79,11 @@ h3,
   border-bottom: 2px solid #4da8da; /* optional underline effect */
 }
 
+.logo {
+  height: 50px;
+  width: auto;
+}
+
 /* carouse-home */
 #summerCarousel .carouse-item img {
   height: 15vh;
