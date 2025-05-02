@@ -22,7 +22,7 @@ This project was originally a task for the **Digital Clinic program at Centre In
 
 ## 📁 Live Demo
 
-[🔗 View One2Visit Live](https://one2visit.netflify.app) 
+[🔗 View One2Visit Live](https://one2visit.netlify.app) 
 
 ---
 
