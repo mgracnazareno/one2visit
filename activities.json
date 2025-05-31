@@ -1,0 +1,114 @@
+[
+  {
+    "id": "space-for-life",
+    "title": "Space for Life",
+    "category": "science-nature",
+    "image": "images/activities/biodome-planetarium-espace-pour-la-vie.jpg",
+    "description": "Wander through lush gardens, meet exotic species, and journey through\n                                space in this science-filled adventure."
+  },
+  {
+    "id": "laronde",
+    "title": "La Ronde Amusement Park",
+    "category": "entertainment",
+    "image": "images/activities/la-ronde-montreal-jobs.jpg",
+    "description": "Enjoy thrilling rides, family attractions, and scenic views at\n                                Montreal’s largest amusement park—fun for all ages!"
+  },
+  {
+    "id": "underground-city",
+    "title": "Underground City (RESO)",
+    "category": "food-shopping",
+    "image": "images/activities/underground_city.jpg",
+    "description": "Discover Montreal’s vast network of underground shops, restaurants, and\n                                walkways—perfect for exploring rain or shine."
+  },
+  {
+    "id": "fine-arts-museum",
+    "title": "Montreal Museum of Fine Arts (MMFA)",
+    "category": "art-culture",
+    "image": "images/activities/slava-abramovitch-7KDX6FFPYdM-unsplash_museum.jpg",
+    "description": "View renowned artworks, tour elegant galleries, and enjoy cultural\n                                experiences at this world-class museum."
+  },
+  {
+    "id": "old-port-montreal",
+    "title": "Old Port Montreal",
+    "category": "outdoor-activities",
+    "image": "images/activities/jeremy-tanguay-fernandes-G-c4GH9BQ4E-unsplash_oldport.jpg",
+    "description": "Stroll along the historic waterfront, enjoy outdoor events, and take in\n                                stunning views of the city and river."
+  },
+  {
+    "id": "lachine-canal",
+    "title": "Lachine Canal",
+    "category": "outdoor-activities",
+    "image": "images/activities/montreal-lachine-canal1.webp",
+    "description": "Take in scenic waterside views, bike along peaceful paths, or kayak\n                                through Montreal’s historic canal route."
+  },
+  {
+    "id": "atwater-market",
+    "title": "Atwater Market",
+    "category": "food-shopping",
+    "image": "images/activities/photo6jpg.jpg",
+    "description": "Browse fresh produce, gourmet treats, and artisan goods at one of\n                                Montreal’s most beloved public markets."
+  },
+  {
+    "id": "mont-royal",
+    "title": "Mont Royal",
+    "category": "outdoor-activities",
+    "image": "images/activities/mont-royal.jpg",
+    "description": "Soak in breathtaking city views, wander peaceful trails, or picnic by\n                                Beaver Lake in this serene escape."
+  },
+  {
+    "id": "jean-drapeau",
+    "title": "Jean-Drapeau Park",
+    "category": "outdoor-activities",
+    "image": "images/activities/parc-jean-drapeau-la-ronde.webp",
+    "description": "Admire sweeping views of Montreal, follow scenic walking paths, or rest\n                                by tranquil Beaver Lake."
+  },
+  {
+    "id": "plateau-street-art",
+    "title": "Street Art in Plateau",
+    "category": "arts-culture",
+    "image": "images/activities/streetartcFrederiqueMenard-Aubin-723.jpg",
+    "description": "Discover vibrant murals, hidden gems, and bold graffiti that bring\n                                Montreal’s streets to life with color and culture."
+  },
+  {
+    "id": "saint-joseph",
+    "title": "Saint Joseph's Oratory",
+    "category": "arts-culture",
+    "image": "images/activities/saint-joseph.jpg",
+    "description": "Visit this stunning basilica, admire sweeping city views, and enjoy\n                                peaceful walks through its serene gardens."
+  },
+  {
+    "id": "montreal-food",
+    "title": "Montreal's Food Sense",
+    "category": "food-shopping",
+    "image": "images/activities/Festival+streetfood+MTL_14.jpg",
+    "description": "Savor iconic bagels, cheesy poutine, and diverse flavors across\n                                Montreal’s lively food scene."
+  },
+  {
+    "id": "osheaga",
+    "title": "Osheaga",
+    "category": "entertainment",
+    "image": "images/activities/osheaga-festival-site-main.jpeg",
+    "description": "Dance to top artists, discover new music, and soak up summer vibes at\n                                Montreal’s biggest outdoor festival."
+  },
+  {
+    "id": "terrace-dining",
+    "title": "Terrace Dining",
+    "category": "food-shopping",
+    "image": "images/activities/rooftop-resto.jpg",
+    "description": "Dine under the open sky, sip drinks with a view, and enjoy Montreal’s\n                                lively patio culture."
+  },
+  {
+    "id": "quebec",
+    "title": "Quebec City",
+    "category": "arts-culture",
+    "image": "images/activities/quebec-city.jpg",
+    "description": "Wander cobblestone streets, visit historic landmarks, and soak in the\n                                charm of this timeless city."
+  },
+  {
+    "id": "laurentians",
+    "title": "Laurentian Mountains",
+    "category": "outdoor-activities",
+    "image": "images/activities/ziptrek-ecotour.jpg",
+    "description": "Escape to scenic peaks, hike forested trails, or unwind at cozy\n                                lakeside spots in the Laurentians."
+  }
+]
